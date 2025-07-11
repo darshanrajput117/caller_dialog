@@ -49,9 +49,7 @@ class CallReceiver : BroadcastReceiver() {
                         isRingingTwo = true
                         isIncomingRinging = false
                         isOutgoingRinging = true
-
                         Log.e(TAG, "callreceiver_EXTRASTATEOFFHOOK")
-
                         handleAnsweredCall(context, phoneNumber)
                     }
                 }
